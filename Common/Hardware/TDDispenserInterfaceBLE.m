@@ -9,6 +9,7 @@
 #import "TDDispenserInterfaceBLE.h"
 #import <CoreBluetooth/CoreBluetooth.h>
 
+// TODO: Currently hardcoded to the dispenser but we really should have a UI to discover and pair.
 static NSString * const TDDispenserPeripheralUUID = @"98C718CA-D855-F782-D0D5-BDC1F1C5C155";
 static NSString * const TDDispenserPeripheralName = @"SH-HC-08";
 static NSString * const TDDispenserPeripheralServiceUUID = @"FFE0";

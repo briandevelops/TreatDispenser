@@ -78,6 +78,7 @@
     float rotateAmount = 0;
     
     // Accounts for the uneven rotation of the plate or servo.
+    // NOTE: This is hardcoded specific and derived from testing the current prototype hardware.
     if (self.rotateCount % 18 == 0 || self.rotateCount % 14 == 0) {
         rotateAmount = 0.06f;
     }
